@@ -22,3 +22,6 @@ ARG PROJECT_PATH=/go/src/${PROJECT}
 CMD  [""]
 COPY --from=base ${PROJECT_PATH}/docs/reference /docs/reference
 COPY --from=base ${PROJECT_PATH}/docs/yaml/gen /docs/yaml
+
+
+###vineet###
